@@ -1,0 +1,72 @@
+body{
+    background-image: url(secondpage.jpg);
+    /* linear-gradient(rgb(233, 112, 42) , blue , rgb(241, 44, 232)); */
+    /* background-repeat: no-repeat; */
+    font-size: 1em;
+    
+
+}
+.foods{
+    width: 380px;
+    height: 340px;
+    border: 1px solid white;
+    border-radius: 15px;
+    text-align: center;
+   
+    margin: 15px;
+    margin-top: 50px;
+}
+.festivals{
+    width: 380px;
+    height: 340px;
+    border: 1px solid white;
+    border-radius: 15px;
+    text-align: center;
+   
+    margin: 15px;
+    margin-top: 50px;
+}
+h2{
+    color: rgb(185, 235, 4);
+}
+.main{
+    text-decoration: none;
+    color: rgb(248, 48, 198);
+    font-size: 15pt;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+   
+}
+.heading{
+    text-align: center;
+    color: rgb(114, 140, 218);
+    font-family: 'Permanent Marker', cursive;
+}
+.container{
+    display: flex;
+       flex-direction: row;
+       margin-top: 10px 10px;
+        margin-left: 400px;
+   }
+
+.btn{
+    background-color: rgb(7, 7, 7) ;
+    color: red  ;
+ 
+    font-size: 18px;
+    
+    font-weight: bold;
+
+}
+.btn:hover{
+    background-color: red ;
+    color: black ;
+    cursor: pointer;
+} 
+.btn1{
+    float: right;
+    font-weight: bold;
+    /* margin-right: 25px;
+    margin-top: 25px; */
+    border-radius: 20px;
+}
